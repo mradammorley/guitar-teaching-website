@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div id='topbar'>
+        <h1>Welcome to a World of Guitar </h1>
+    </div>
+
+    <img id='steve' src='images/steve.boy.png' width="200" />
+
+    <div id='mainsection'>
+        <p>This engine will help you to use the best instrument,guitar.
+        </p>
+        <p>step 1.(watch video)</p>
+
+        <p><button id='mainbutton' type='button' onclick=sayHello()>say hi!</button></p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HNSaXAe8tyg?si=ljevE7fz3-3UCPRK"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p>How to Tune Your Guitar For Beginners to see pause video</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5jTsSvkBv60?si=DzpK04wFG-2lNBQp"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+</body>
+<script>
+
+    function sayHello() {
+        var name = prompt("Hi to start please watch video one, what is your name?");
+        if (name !== null) {
+            //Notice how the text in speech marks is grey? your variables should always be a different color
+
+            window.alert("it is nice to meet you " + name + " ");
+        }
+    }
+</script>
+
+</html>
